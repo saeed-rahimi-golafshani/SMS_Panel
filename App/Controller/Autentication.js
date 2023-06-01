@@ -21,8 +21,8 @@ const { smsClient } = require("../Modules/Sms.panel");
                 statusCode: httpStatus.OK,
                 data: {
                     message: "کد ورود ارسال شد",
-                    // code,
-                    // mobile
+                     code,
+                     mobile
                 }
              })
         } catch (error) {
